@@ -433,6 +433,7 @@
 }
 
 .section-5_item {
+    cursor: pointer;
     padding-top: 50px;
     padding-left: 40px;
     background: #FBFAF7;
@@ -761,16 +762,13 @@
 /* -------------9-qism-------------- */
 
 .section-8 {
+    position: relative;
     background: #163A24;
     padding-top: 114px;
     padding-bottom: 124px;
 }
 
-.section-8 .container {
-    position: relative;
-}
-
-.section-8_box::before {
+.section-8::before {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -783,7 +781,19 @@
     background-repeat: no-repeat;
     background-size: 300px 400px;
 }
+.section-8::after{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 300px;
+    height: 400px;
+    display: inline-block;
 
+    background-image: url('../images/flower-right.svg');
+    background-repeat: no-repeat;
+    background-size: 300px 400px;
+}
 .section-8_title {
     font-family: 'Recoleta';
     font-style: normal;
@@ -931,11 +941,11 @@
     align-items: center;
 }
 
-.icon_img {
+.icon_link {
     margin-right: 14px;
 }
 
-.icon_img:last-child {
+.icon_link:last-child {
     margin-right: 0;
 }
 
