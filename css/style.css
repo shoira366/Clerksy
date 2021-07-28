@@ -67,6 +67,7 @@
     background-image: url('../images/researchers.svg');
     background-repeat: no-repeat;
     background-size: 685px 580px;
+    vertical-align: baseline;
     margin-left: 22px;
 }
 
@@ -875,6 +876,7 @@
 }
 
 .div_btn {
+    cursor: pointer;
     border: none;
     position: absolute;
     transform: translateX(-80px);
