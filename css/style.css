@@ -32,8 +32,6 @@
     background: #198C36;
     border-radius: 160px;
     padding: 15px 25px;
-    height: 52px;
-    text-align: right;
 }
 
 .navbar_link {
@@ -52,7 +50,7 @@
 
 .section-1 {
     background: #163A24;
-    border-top: 0.5px solid transparent;
+    /* border-top: 0.5px solid transparent; */
     /* margin-bottom: 120px; */
 }
 
