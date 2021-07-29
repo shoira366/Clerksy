@@ -17,13 +17,15 @@
 
 .navbar {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar_menu {
     list-style-type: none;
     display: flex;
     align-items: center;
-    margin-left: auto;
+    /* margin-left: auto; */
 }
 
 .navbar_item:last-child {
